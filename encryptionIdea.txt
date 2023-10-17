@@ -1,0 +1,8 @@
+Encryption function takes a string, and iterates through it, plugging each letter as a key into a cipher dictionary, where the value is the letter's encrypted equivalent, and concatonating these values into a result string.
+
+Python Version
+fn encrypt(str):
+	result = ""   
+	for letter in str:
+		result += cipher[letter]
+	return result

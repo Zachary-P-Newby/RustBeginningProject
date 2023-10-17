@@ -20,9 +20,16 @@
 
 {Make a list of websites that you found helpful in this project}
 
+- [Rust Website](https://www.rust-lang.org)
+- [Rust Tutorial Full Course](https://www.youtube.com/watch?v=ygL_xcavzQ4) - Course files are the "Rust-Tutorial" Directory
+- [Tutorials Point Rust Tutorial](https://www.tutorialspoint.com/rust/index.htm)
+- [Stack Overflow - rust-analyzer failed to discover workspace in vscode](https://stackoverflow.com/questions/72062935/rust-analyzer-failed-to-discover-workspace-in-vscode)
+- [Rust Analyzer User Manual](https://rust-analyzer.github.io/manual.html#vs-code)
 - [Web Site Name](http://url.link.goes.here)
 - [Web Site Name](http://url.link.goes.here)
-
+- [Web Site Name](http://url.link.goes.here)
+- [Web Site Name](http://url.link.goes.here)
+- [Web Site Name](http://url.link.goes.here)
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
@@ -30,3 +37,7 @@
 - Item 1
 - Item 2
 - Item 3
+
+
+- [Web Site Name](http://url.link.goes.here)
+- [Web Site Name](http://url.link.goes.here)

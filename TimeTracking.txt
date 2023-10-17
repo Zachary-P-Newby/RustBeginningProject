@@ -1,4 +1,8 @@
 10/16/23
-25 mins
+~35 mins
  *Project Planning
  *Create Github Repo
+
+25+ mins
+ * Read Wikipedia article on rust
+ * installed Rust
