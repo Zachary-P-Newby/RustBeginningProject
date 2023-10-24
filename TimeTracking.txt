@@ -1,8 +1,60 @@
 10/16/23
 ~35 mins
- *Project Planning
- *Create Github Repo
+    *Project Planning
+    *Create Github Repo
 
 25+ mins
- * Read Wikipedia article on rust
- * installed Rust
+    * Read Wikipedia article on rust
+    * installed Rust
+
+ 10/17/23
+25+ mins
+    * Started Derek Banas' Rust tutorial
+    * Dealt with Rust analyzer problems
+    * Initalized cargo files for project folder
+
+25+ mins
+    * Rust tutorial by Derek Banas
+    * Strange bug with Rust analyzer
+
+10/18/23
+
+1 Hour
+    * Solved bug with Rust analyzer
+    * Watched Tutorial by Derek Banas
+    * Practice for a few minutes
+
+10/19/23
+25 mins
+    * Watched Tutorial by Derek Banas
+    * Practiced Coding based on tutorial
+
+10/20/23
+25 mins
+    * Watched Tutorial by Derek Banas
+    * Practiced vectors and match
+    * Read "What Is Ownership in Rust?" - https://www.makeuseof.com/rust-ownership/
+25+ mins
+    * Watched Tutorial by Derek Banas
+    * Practiced vectors and creating functions
+
+10/21/23
+
+25 mins
+ * Watched Tutorial by Derek Banas
+ * Practiced Generics
+ * Took notes on ownership
+
+34 mins:
+ *Watched Tutorial by Derek Banas
+ *Practiced ownership, hashmaps, structs and traits
+
+ 10/23/23
+~15 mins:
+ * struct & trait practice
+
+25 mins
+ * watched tutorial by Derek Banas on structs, crates, modules, packages, paths, opening, inputting, outputting, and closing files, and error hadnling
+
+25 mins
+ * Practiced creating and opening files

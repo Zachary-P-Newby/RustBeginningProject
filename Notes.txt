@@ -1,0 +1,103 @@
+10/18/23
+& means reference too,
+not using it will consume variables, like in a string concatination.
+let st8 = st6 + &st7
+
+st6 no longer exsists, its part of st8, but st7 still exsists, that was just a reference.
+
+10/21/23
+
+*Stack - variables are stored in last in, first out (first in, last out, like a stack of pancakes) format, data must have a defined fixed size.
+* Heap - When putting data on heap, you request a certain amount of space, the OS finds an availible amount of space, stores the data there and returns a pointer to that space.
+
+Rust has an ownership system where:
+
+1. each value has a variable called its owner
+2. There can only be one owner for each value
+3. The compiler tracks values and owners, so When a values falls out of scope, the compiler deletes it to save time and memory, 
+eliminating the need for a grabage collection system like in python.
+
+When you assign a value with an owner to another, ie.
+let str1 = String::from("cheese")
+let str2 =  str1
+
+str2 becomes the value's owner and str1 is dropped.
+
+If you want to have both str1 and str2 you can clone str1 - .clone() -
+
+This does not apply to ints, floats, bools chars, but does to strings, arrays, vectors
+
+Only applies to non-heap items?
+
+Things must be mutable in order to be chained
+
+You can only create one mutable version of a variable inside a function
+
+If a function uses a reference, it  can't change it unless we create a mutable version of it. 
+
+Structs are Rust's classes and interfaces, they can be created to hold multiple data types asa attributes and even use generics for them.
+Traits are sets of functions (and values) that can be implemented into structs ,acting as methods, rather than being built in.
+
+Ot recreate a python class in rust, you must create a structure and implement traits containing funtions to act as methods.
+
+struct X{~~~~~~~}
+
+impl trait_y for X{
+    MOdify trait to fit structure if needed
+}
+
+
+10/23/23
+Crates: Modules that produce a library or executeable
+Modules: Organize and handle privacy
+Packages: Build, test and share Crates
+Paths : A way of naming an item such as a struct or function
+
+mod is keyword for making Modules
+modules can contain one another
+pub for public in Modules, put this behind something to make it public, don't include it for private
+
+to create a function for a struct:
+~sturct~
+
+impl `struct~ {
+    pub fn____(){}
+}
+
+use String::from() for assigning a user made string as a value to a struct (put this in the new function)
+
+Just because a module is public, it does not mean the child funtions, structs, and traits are
+
+super:: is used to call something from the parent scopebreak things down into functions
+
+crate::----:: == call something from the directory "----"
+
+crate::directory::module::<any sub modules>::function
+place this in public function in file containing module so main can call fn from module
+
+Then declare the module you want to use in main file
+
+1:52:17 read and write to file guide.
+
+use panic!() for dealing with errors, use match Ok and Err, and error type, for error handling
+You can stack match cases.
+use {:?} for isnerting caught error into string in panic! in Err in match statement
+
+Use File keyword, write!(), .unwrap, File::create, File::open,
+
+10//24/23
+Iterators (for x in arr.iter(){...}) work by borrowing values that iterate through, they do not take ownership of the values.
+Array.into_iter will consume the array however
+
+for x in arr.iter(){
+    println!("{?:}", x); 
+}
+alternatively you can save a iterator as a variable:
+let mut iter1 = arr.iter();
+println("{:?}", iter1.next())
+
+Closures (lambda functions)
+
+let var_name = |parameters| -> return_type{
+    body
+}
