@@ -58,3 +58,10 @@
 
 25 mins
  * Practiced creating and opening files
+
+ 10/24/23
+ 25 mins
+ * watched toutoral interator and closues 
+
+31 mins
+ * Finished Derek Banas' rust tutorial

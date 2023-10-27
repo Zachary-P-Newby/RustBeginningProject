@@ -101,3 +101,8 @@ Closures (lambda functions)
 let var_name = |parameters| -> return_type{
     body
 }
+
+Unlike functions closures can access values outside their body by borrowing
+Closures can be marked as mutable allowing you to change values used within them.
+
+Like python you can pass closures to functions and create functions inside your main function.
